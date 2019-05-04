@@ -31,3 +31,36 @@ E:\do_an\lan\lan\obj\Debug\lan.RibbonForm1.resources
 E:\do_an\lan\lan\obj\Debug\lan.RibbonForm2.resources
 E:\do_an\lan\lan\obj\Debug\lan.csprojResolveAssemblyReference.cache
 E:\do_an\lan\lan\obj\Debug\lan.frmNhanvien.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\bin\Debug\lan.exe.config
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.exe
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.pdb
+C:\Users\ACER\Desktop\do an\ChungCu\lan\bin\Debug\lan.exe
+C:\Users\ACER\Desktop\do an\ChungCu\lan\bin\Debug\lan.pdb
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.csprojResolveAssemblyReference.cache
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.bao_cao.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.bill_dien.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.bill_nuoc.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.demo.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.form_update_mk.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.frmNhanvien.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.hoa_don.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.nhankhau_phieu.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.Form_danh_muc.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.Form1.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.form_dangnhap.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.Properties.Resources.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.ql_canho.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.ql_dancu.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.ql_dv.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.ql_nhanvien.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.RibbonForm1.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.RibbonForm2.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.Sua_tt.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.Tao_tk.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.them.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.thongke.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.tracuu.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.vang.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.csproj.GenerateResource.Cache
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\RdlCompile.cache
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\RdlCompile.compiled

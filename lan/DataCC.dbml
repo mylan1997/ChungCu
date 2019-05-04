@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_Chungcu" Class="DataCCDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-77VKD1S\SQLEXPRESS;Initial Catalog=QL_Chungcu;Integrated Security=True" SettingsObjectName="lan.Properties.Settings" SettingsPropertyName="QL_ChungcuConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-SAS89VBA\SQLEXPRESS;Initial Catalog=QL_Chungcu;Integrated Security=True" SettingsObjectName="lan.Properties.Settings" SettingsPropertyName="QL_ChungcuConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.canho" Member="canhos">
     <Type Name="canho">
       <Column Name="mach" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -181,18 +181,6 @@
       <Association Name="nhankhau_CT_PNK" Member="CT_PNKs" ThisKey="mank" OtherKey="mank" Type="CT_PNK" />
     </Type>
   </Table>
-  <Table Name="dbo.nhanvien" Member="nhanviens">
-    <Type Name="nhanvien">
-      <Column Name="manv" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="hoten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="gioitinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="diachi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="SDT" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Association Name="nhanvien_phieuchi" Member="phieuchis" ThisKey="manv" OtherKey="manv" Type="phieuchi" />
-      <Association Name="nhanvien_phieuthu" Member="phieuthus" ThisKey="manv" OtherKey="manv" Type="phieuthu" />
-      <Association Name="nhanvien_phieuxuphat" Member="phieuxuphats" ThisKey="manv" OtherKey="manv" Type="phieuxuphat" />
-    </Type>
-  </Table>
   <Table Name="dbo.noiquy" Member="noiquys">
     <Type Name="noiquy">
       <Column Name="maNQ" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -276,6 +264,20 @@
       <Column Name="Gioihan" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
       <Association Name="PhanQuyen_Taikhoan_PhanQuyen" Member="PhanQuyen" ThisKey="id_PQ" OtherKey="id_per" Type="PhanQuyen" IsForeignKey="true" />
       <Association Name="TaiKhoan_Taikhoan_PhanQuyen" Member="TaiKhoan" ThisKey="id_ND" OtherKey="id" Type="TaiKhoan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.nhanvien" Member="nhanviens">
+    <Type Name="nhanvien">
+      <Column Name="manv" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="hoten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="gioitinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diachi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SDT" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NgaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="CMND" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Association Name="nhanvien_phieuchi" Member="phieuchis" ThisKey="manv" OtherKey="manv" Type="phieuchi" />
+      <Association Name="nhanvien_phieuthu" Member="phieuthus" ThisKey="manv" OtherKey="manv" Type="phieuthu" />
+      <Association Name="nhanvien_phieuxuphat" Member="phieuxuphats" ThisKey="manv" OtherKey="manv" Type="phieuxuphat" />
     </Type>
   </Table>
 </Database>

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNhanvien));
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
@@ -37,12 +37,12 @@
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.labelX6 = new DevComponents.DotNetBar.LabelX();
             this.labelX7 = new DevComponents.DotNetBar.LabelX();
-            this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX2 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX3 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX4 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX6 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txt_manv = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txt_cmnd = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txt_hoten = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txt_diachi = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txt_sdt = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.dt_ngaysinh = new System.Windows.Forms.DateTimePicker();
             this.rb_nam = new System.Windows.Forms.RadioButton();
             this.rb_nu = new System.Windows.Forms.RadioButton();
             this.labelX8 = new DevComponents.DotNetBar.LabelX();
@@ -140,82 +140,84 @@
             this.labelX7.TabIndex = 1;
             this.labelX7.Text = "Ngày sinh :";
             // 
-            // textBoxX1
+            // txt_manv
             // 
             // 
             // 
             // 
-            this.textBoxX1.Border.Class = "TextBoxBorder";
-            this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX1.Location = new System.Drawing.Point(122, 93);
-            this.textBoxX1.Name = "textBoxX1";
-            this.textBoxX1.PreventEnterBeep = true;
-            this.textBoxX1.Size = new System.Drawing.Size(199, 20);
-            this.textBoxX1.TabIndex = 2;
+            this.txt_manv.Border.Class = "TextBoxBorder";
+            this.txt_manv.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txt_manv.Enabled = false;
+            this.txt_manv.Location = new System.Drawing.Point(122, 93);
+            this.txt_manv.Name = "txt_manv";
+            this.txt_manv.PreventEnterBeep = true;
+            this.txt_manv.Size = new System.Drawing.Size(199, 20);
+            this.txt_manv.TabIndex = 2;
             // 
-            // textBoxX2
-            // 
-            // 
-            // 
-            // 
-            this.textBoxX2.Border.Class = "TextBoxBorder";
-            this.textBoxX2.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX2.Location = new System.Drawing.Point(122, 140);
-            this.textBoxX2.Name = "textBoxX2";
-            this.textBoxX2.PreventEnterBeep = true;
-            this.textBoxX2.Size = new System.Drawing.Size(199, 20);
-            this.textBoxX2.TabIndex = 2;
-            // 
-            // textBoxX3
+            // txt_cmnd
             // 
             // 
             // 
             // 
-            this.textBoxX3.Border.Class = "TextBoxBorder";
-            this.textBoxX3.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX3.Location = new System.Drawing.Point(403, 93);
-            this.textBoxX3.Name = "textBoxX3";
-            this.textBoxX3.PreventEnterBeep = true;
-            this.textBoxX3.Size = new System.Drawing.Size(271, 20);
-            this.textBoxX3.TabIndex = 2;
+            this.txt_cmnd.Border.Class = "TextBoxBorder";
+            this.txt_cmnd.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txt_cmnd.Location = new System.Drawing.Point(122, 140);
+            this.txt_cmnd.Name = "txt_cmnd";
+            this.txt_cmnd.PreventEnterBeep = true;
+            this.txt_cmnd.Size = new System.Drawing.Size(199, 20);
+            this.txt_cmnd.TabIndex = 2;
             // 
-            // textBoxX4
-            // 
-            // 
-            // 
-            // 
-            this.textBoxX4.Border.Class = "TextBoxBorder";
-            this.textBoxX4.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX4.Location = new System.Drawing.Point(403, 143);
-            this.textBoxX4.Name = "textBoxX4";
-            this.textBoxX4.PreventEnterBeep = true;
-            this.textBoxX4.Size = new System.Drawing.Size(271, 20);
-            this.textBoxX4.TabIndex = 2;
-            // 
-            // textBoxX6
+            // txt_hoten
             // 
             // 
             // 
             // 
-            this.textBoxX6.Border.Class = "TextBoxBorder";
-            this.textBoxX6.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX6.Location = new System.Drawing.Point(122, 195);
-            this.textBoxX6.Name = "textBoxX6";
-            this.textBoxX6.PreventEnterBeep = true;
-            this.textBoxX6.Size = new System.Drawing.Size(199, 20);
-            this.textBoxX6.TabIndex = 2;
+            this.txt_hoten.Border.Class = "TextBoxBorder";
+            this.txt_hoten.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txt_hoten.Location = new System.Drawing.Point(403, 93);
+            this.txt_hoten.Name = "txt_hoten";
+            this.txt_hoten.PreventEnterBeep = true;
+            this.txt_hoten.Size = new System.Drawing.Size(271, 20);
+            this.txt_hoten.TabIndex = 1;
             // 
-            // dateTimePicker1
+            // txt_diachi
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(399, 194);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(101, 20);
-            this.dateTimePicker1.TabIndex = 3;
+            // 
+            // 
+            // 
+            this.txt_diachi.Border.Class = "TextBoxBorder";
+            this.txt_diachi.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txt_diachi.Location = new System.Drawing.Point(403, 143);
+            this.txt_diachi.Name = "txt_diachi";
+            this.txt_diachi.PreventEnterBeep = true;
+            this.txt_diachi.Size = new System.Drawing.Size(271, 20);
+            this.txt_diachi.TabIndex = 3;
+            // 
+            // txt_sdt
+            // 
+            // 
+            // 
+            // 
+            this.txt_sdt.Border.Class = "TextBoxBorder";
+            this.txt_sdt.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txt_sdt.Location = new System.Drawing.Point(122, 195);
+            this.txt_sdt.Name = "txt_sdt";
+            this.txt_sdt.PreventEnterBeep = true;
+            this.txt_sdt.Size = new System.Drawing.Size(199, 20);
+            this.txt_sdt.TabIndex = 4;
+            // 
+            // dt_ngaysinh
+            // 
+            this.dt_ngaysinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dt_ngaysinh.Location = new System.Drawing.Point(403, 193);
+            this.dt_ngaysinh.Name = "dt_ngaysinh";
+            this.dt_ngaysinh.Size = new System.Drawing.Size(101, 20);
+            this.dt_ngaysinh.TabIndex = 3;
             // 
             // rb_nam
             // 
             this.rb_nam.AutoSize = true;
+            this.rb_nam.Checked = true;
             this.rb_nam.Location = new System.Drawing.Point(581, 196);
             this.rb_nam.Name = "rb_nam";
             this.rb_nam.Size = new System.Drawing.Size(47, 17);
@@ -231,7 +233,6 @@
             this.rb_nu.Name = "rb_nu";
             this.rb_nu.Size = new System.Drawing.Size(39, 17);
             this.rb_nu.TabIndex = 4;
-            this.rb_nu.TabStop = true;
             this.rb_nu.Text = "Nữ";
             this.rb_nu.UseVisualStyleBackColor = true;
             // 
@@ -249,20 +250,22 @@
             // 
             // grd_nhanvien
             // 
+            this.grd_nhanvien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.grd_nhanvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grd_nhanvien.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grd_nhanvien.DefaultCellStyle = dataGridViewCellStyle3;
             this.grd_nhanvien.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.grd_nhanvien.Location = new System.Drawing.Point(43, 259);
             this.grd_nhanvien.Name = "grd_nhanvien";
             this.grd_nhanvien.Size = new System.Drawing.Size(747, 220);
             this.grd_nhanvien.TabIndex = 5;
+            this.grd_nhanvien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_nhanvien_CellClick);
             // 
             // btn_them
             // 
@@ -275,6 +278,7 @@
             this.btn_them.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_them.TabIndex = 6;
             this.btn_them.Text = "Thêm";
+            this.btn_them.Click += new System.EventHandler(this.btn_them_Click);
             // 
             // btn_sua
             // 
@@ -287,6 +291,7 @@
             this.btn_sua.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_sua.TabIndex = 7;
             this.btn_sua.Text = "Sửa";
+            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
             // 
             // btn_xoa
             // 
@@ -299,6 +304,7 @@
             this.btn_xoa.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_xoa.TabIndex = 8;
             this.btn_xoa.Text = "Xóa";
+            this.btn_xoa.Click += new System.EventHandler(this.btn_xoa_Click);
             // 
             // btn_huy
             // 
@@ -322,12 +328,12 @@
             this.Controls.Add(this.grd_nhanvien);
             this.Controls.Add(this.rb_nu);
             this.Controls.Add(this.rb_nam);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBoxX6);
-            this.Controls.Add(this.textBoxX4);
-            this.Controls.Add(this.textBoxX2);
-            this.Controls.Add(this.textBoxX3);
-            this.Controls.Add(this.textBoxX1);
+            this.Controls.Add(this.dt_ngaysinh);
+            this.Controls.Add(this.txt_sdt);
+            this.Controls.Add(this.txt_diachi);
+            this.Controls.Add(this.txt_cmnd);
+            this.Controls.Add(this.txt_hoten);
+            this.Controls.Add(this.txt_manv);
             this.Controls.Add(this.labelX5);
             this.Controls.Add(this.labelX3);
             this.Controls.Add(this.labelX7);
@@ -338,6 +344,7 @@
             this.Controls.Add(this.labelX1);
             this.Name = "frmNhanvien";
             this.Text = "frmNhanvien";
+            this.Load += new System.EventHandler(this.frmNhanvien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grd_nhanvien)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -353,12 +360,12 @@
         private DevComponents.DotNetBar.LabelX labelX5;
         private DevComponents.DotNetBar.LabelX labelX6;
         private DevComponents.DotNetBar.LabelX labelX7;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX1;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX2;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX3;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX4;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX6;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private DevComponents.DotNetBar.Controls.TextBoxX txt_manv;
+        private DevComponents.DotNetBar.Controls.TextBoxX txt_cmnd;
+        private DevComponents.DotNetBar.Controls.TextBoxX txt_hoten;
+        private DevComponents.DotNetBar.Controls.TextBoxX txt_diachi;
+        private DevComponents.DotNetBar.Controls.TextBoxX txt_sdt;
+        private System.Windows.Forms.DateTimePicker dt_ngaysinh;
         private System.Windows.Forms.RadioButton rb_nam;
         private System.Windows.Forms.RadioButton rb_nu;
         private DevComponents.DotNetBar.LabelX labelX8;
