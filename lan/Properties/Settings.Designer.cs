@@ -44,5 +44,16 @@ namespace lan.Properties {
                 return ((string)(this["QL_ChungcuConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-SAS89VBA\\SQLEXPRESS;Initial Catalog=QL_Chungcu;Integrated Secu" +
+            "rity=True")]
+        public string QL_ChungcuConnectionString1 {
+            get {
+                return ((string)(this["QL_ChungcuConnectionString1"]));
+            }
+        }
     }
 }
