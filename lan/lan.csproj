@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=14.1.0.14, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.14, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
@@ -75,12 +76,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataCC.dbml</DependentUpon>
     </Compile>
-    <Compile Include="demo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="demo.Designer.cs">
-      <DependentUpon>demo.cs</DependentUpon>
-    </Compile>
     <Compile Include="DO_ANDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -92,11 +87,29 @@
     <Compile Include="form_update mk.Designer.cs">
       <DependentUpon>form_update mk.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDangkythexe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangkythexe.Designer.cs">
+      <DependentUpon>frmDangkythexe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangnhap.Designer.cs">
+      <DependentUpon>frmDangnhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNhanvien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmNhanvien.Designer.cs">
       <DependentUpon>frmNhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanlyxe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanlyxe.Designer.cs">
+      <DependentUpon>frmQuanlyxe.cs</DependentUpon>
     </Compile>
     <Compile Include="hoa_don.cs">
       <SubType>Form</SubType>
@@ -216,14 +229,20 @@
     <None Include="DataCC.dbml.layout">
       <DependentUpon>DataCC.dbml</DependentUpon>
     </None>
-    <EmbeddedResource Include="demo.resx">
-      <DependentUpon>demo.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="form_update mk.resx">
       <DependentUpon>form_update mk.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDangkythexe.resx">
+      <DependentUpon>frmDangkythexe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangnhap.resx">
+      <DependentUpon>frmDangnhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNhanvien.resx">
       <DependentUpon>frmNhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanlyxe.resx">
+      <DependentUpon>frmQuanlyxe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="hoa_don.resx">
       <DependentUpon>hoa_don.cs</DependentUpon>

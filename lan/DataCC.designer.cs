@@ -111,7 +111,7 @@ namespace lan
     #endregion
 		
 		public DataCCDataContext() : 
-				base(global::lan.Properties.Settings.Default.QL_ChungcuConnectionString1, mappingSource)
+				base(global::lan.Properties.Settings.Default.QL_ChungcuConnectionString2, mappingSource)
 		{
 			OnCreated();
 		}

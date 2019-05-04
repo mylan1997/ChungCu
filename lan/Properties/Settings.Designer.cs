@@ -55,5 +55,16 @@ namespace lan.Properties {
                 return ((string)(this["QL_ChungcuConnectionString1"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-77VKD1S\\SQLEXPRESS;Initial Catalog=QL_Chungcu;Persist Securit" +
+            "y Info=True;User ID=sa;Password=sa2012")]
+        public string QL_ChungcuConnectionString2 {
+            get {
+                return ((string)(this["QL_ChungcuConnectionString2"]));
+            }
+        }
     }
 }

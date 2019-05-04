@@ -64,3 +64,6 @@ C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.vang.resources
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.csproj.GenerateResource.Cache
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\RdlCompile.cache
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\RdlCompile.compiled
+E:\do_an\lan\lan\obj\Debug\lan.frmDangnhap.resources
+E:\do_an\lan\lan\obj\Debug\lan.frmDangkythexe.resources
+E:\do_an\lan\lan\obj\Debug\lan.frmQuanlyxe.resources

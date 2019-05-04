@@ -105,5 +105,10 @@ namespace lan
 
             load();
         }
+
+        private void grd_nhanvien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

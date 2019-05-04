@@ -33,5 +33,14 @@ namespace lan
             frm.Show();
             frm.Dock = DockStyle.Fill;
         }
+
+        private void buttonItem15_Click(object sender, EventArgs e)
+        {
+            demo frm = new demo();
+
+            frm.MdiParent = this;
+            frm.Show();
+            frm.Dock = DockStyle.Fill;
+        }
     }
 }

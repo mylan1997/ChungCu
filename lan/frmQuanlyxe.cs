@@ -1,26 +1,19 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
 
 namespace lan
 {
-    public partial class demo : DevComponents.DotNetBar.RibbonForm
+    public partial class frmQuanlyxe : DevComponents.DotNetBar.RibbonForm
     {
-        public demo()
+        public frmQuanlyxe()
         {
             InitializeComponent();
-        }
-
-        private void demo_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
