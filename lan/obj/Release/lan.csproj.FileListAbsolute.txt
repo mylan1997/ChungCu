@@ -1,0 +1,9 @@
+E:\do_an\lan\lan\bin\Release\lan.exe.config
+E:\do_an\lan\lan\obj\Release\lan.Form_danh_muc.resources
+E:\do_an\lan\lan\obj\Release\lan.Form1.resources
+E:\do_an\lan\lan\obj\Release\lan.Properties.Resources.resources
+E:\do_an\lan\lan\obj\Release\lan.ql_canho.resources
+E:\do_an\lan\lan\obj\Release\lan.ql_dancu.resources
+E:\do_an\lan\lan\obj\Release\lan.ql_dv.resources
+E:\do_an\lan\lan\obj\Release\lan.ql_nhanvien.resources
+E:\do_an\lan\lan\obj\Release\lan.csproj.GenerateResource.Cache
