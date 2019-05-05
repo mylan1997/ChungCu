@@ -72,9 +72,6 @@ namespace lan
     partial void InsertHDnuoc(HDnuoc instance);
     partial void UpdateHDnuoc(HDnuoc instance);
     partial void DeleteHDnuoc(HDnuoc instance);
-    partial void Inserthoadon(hoadon instance);
-    partial void Updatehoadon(hoadon instance);
-    partial void Deletehoadon(hoadon instance);
     partial void InsertloaiCH(loaiCH instance);
     partial void UpdateloaiCH(loaiCH instance);
     partial void DeleteloaiCH(loaiCH instance);
@@ -252,14 +249,6 @@ namespace lan
 			}
 		}
 		
-		public System.Data.Linq.Table<hoadon> hoadons
-		{
-			get
-			{
-				return this.GetTable<hoadon>();
-			}
-		}
-		
 		public System.Data.Linq.Table<loaiCH> loaiCHes
 		{
 			get
@@ -369,8 +358,6 @@ namespace lan
 		
 		private EntitySet<CT_nuoc> _CT_nuocs;
 		
-		private EntitySet<hoadon> _hoadons;
-		
 		private EntitySet<phieukekhaiNK> _phieukekhaiNKs;
 		
 		private EntitySet<phieuxuphat> _phieuxuphats;
@@ -397,7 +384,6 @@ namespace lan
 		{
 			this._CT_diens = new EntitySet<CT_dien>(new Action<CT_dien>(this.attach_CT_diens), new Action<CT_dien>(this.detach_CT_diens));
 			this._CT_nuocs = new EntitySet<CT_nuoc>(new Action<CT_nuoc>(this.attach_CT_nuocs), new Action<CT_nuoc>(this.detach_CT_nuocs));
-			this._hoadons = new EntitySet<hoadon>(new Action<hoadon>(this.attach_hoadons), new Action<hoadon>(this.detach_hoadons));
 			this._phieukekhaiNKs = new EntitySet<phieukekhaiNK>(new Action<phieukekhaiNK>(this.attach_phieukekhaiNKs), new Action<phieukekhaiNK>(this.detach_phieukekhaiNKs));
 			this._phieuxuphats = new EntitySet<phieuxuphat>(new Action<phieuxuphat>(this.attach_phieuxuphats), new Action<phieuxuphat>(this.detach_phieuxuphats));
 			this._loaiCH = default(EntityRef<loaiCH>);
@@ -534,19 +520,6 @@ namespace lan
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="canho_hoadon", Storage="_hoadons", ThisKey="mach", OtherKey="mach")]
-		public EntitySet<hoadon> hoadons
-		{
-			get
-			{
-				return this._hoadons;
-			}
-			set
-			{
-				this._hoadons.Assign(value);
-			}
-		}
-		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="canho_phieukekhaiNK", Storage="_phieukekhaiNKs", ThisKey="mach", OtherKey="mach")]
 		public EntitySet<phieukekhaiNK> phieukekhaiNKs
 		{
@@ -646,18 +619,6 @@ namespace lan
 		}
 		
 		private void detach_CT_nuocs(CT_nuoc entity)
-		{
-			this.SendPropertyChanging();
-			entity.canho = null;
-		}
-		
-		private void attach_hoadons(hoadon entity)
-		{
-			this.SendPropertyChanging();
-			entity.canho = this;
-		}
-		
-		private void detach_hoadons(hoadon entity)
 		{
 			this.SendPropertyChanging();
 			entity.canho = null;
@@ -1079,8 +1040,6 @@ namespace lan
 		
 		private EntityRef<dichvu> _dichvu;
 		
-		private EntityRef<hoadon> _hoadon;
-		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -1098,7 +1057,6 @@ namespace lan
 		public CT_HD()
 		{
 			this._dichvu = default(EntityRef<dichvu>);
-			this._hoadon = default(EntityRef<hoadon>);
 			OnCreated();
 		}
 		
@@ -1137,10 +1095,6 @@ namespace lan
 			{
 				if ((this._mahd != value))
 				{
-					if (this._hoadon.HasLoadedOrAssignedValue)
-					{
-						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
-					}
 					this.OnmahdChanging(value);
 					this.SendPropertyChanging();
 					this._mahd = value;
@@ -1220,40 +1174,6 @@ namespace lan
 						this._madv = default(string);
 					}
 					this.SendPropertyChanged("dichvu");
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="hoadon_CT_HD", Storage="_hoadon", ThisKey="mahd", OtherKey="mahd", IsForeignKey=true)]
-		public hoadon hoadon
-		{
-			get
-			{
-				return this._hoadon.Entity;
-			}
-			set
-			{
-				hoadon previousValue = this._hoadon.Entity;
-				if (((previousValue != value) 
-							|| (this._hoadon.HasLoadedOrAssignedValue == false)))
-				{
-					this.SendPropertyChanging();
-					if ((previousValue != null))
-					{
-						this._hoadon.Entity = null;
-						previousValue.CT_HDs.Remove(this);
-					}
-					this._hoadon.Entity = value;
-					if ((value != null))
-					{
-						value.CT_HDs.Add(this);
-						this._mahd = value.mahd;
-					}
-					else
-					{
-						this._mahd = default(string);
-					}
-					this.SendPropertyChanged("hoadon");
 				}
 			}
 		}
@@ -3362,305 +3282,6 @@ namespace lan
 		{
 			this.SendPropertyChanging();
 			entity.HDnuoc = null;
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.hoadon")]
-	public partial class hoadon : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private string _mahd;
-		
-		private string _nguoilap;
-		
-		private string _mach;
-		
-		private string _tenhd;
-		
-		private string _dvt;
-		
-		private System.Nullable<int> _soluongmax;
-		
-		private System.Nullable<System.DateTime> _ngaylapHD;
-		
-		private System.Nullable<double> _tongtien;
-		
-		private EntitySet<CT_HD> _CT_HDs;
-		
-		private EntityRef<canho> _canho;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnmahdChanging(string value);
-    partial void OnmahdChanged();
-    partial void OnnguoilapChanging(string value);
-    partial void OnnguoilapChanged();
-    partial void OnmachChanging(string value);
-    partial void OnmachChanged();
-    partial void OntenhdChanging(string value);
-    partial void OntenhdChanged();
-    partial void OndvtChanging(string value);
-    partial void OndvtChanged();
-    partial void OnsoluongmaxChanging(System.Nullable<int> value);
-    partial void OnsoluongmaxChanged();
-    partial void OnngaylapHDChanging(System.Nullable<System.DateTime> value);
-    partial void OnngaylapHDChanged();
-    partial void OntongtienChanging(System.Nullable<double> value);
-    partial void OntongtienChanged();
-    #endregion
-		
-		public hoadon()
-		{
-			this._CT_HDs = new EntitySet<CT_HD>(new Action<CT_HD>(this.attach_CT_HDs), new Action<CT_HD>(this.detach_CT_HDs));
-			this._canho = default(EntityRef<canho>);
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_mahd", DbType="NChar(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
-		public string mahd
-		{
-			get
-			{
-				return this._mahd;
-			}
-			set
-			{
-				if ((this._mahd != value))
-				{
-					this.OnmahdChanging(value);
-					this.SendPropertyChanging();
-					this._mahd = value;
-					this.SendPropertyChanged("mahd");
-					this.OnmahdChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_nguoilap", DbType="NVarChar(50)")]
-		public string nguoilap
-		{
-			get
-			{
-				return this._nguoilap;
-			}
-			set
-			{
-				if ((this._nguoilap != value))
-				{
-					this.OnnguoilapChanging(value);
-					this.SendPropertyChanging();
-					this._nguoilap = value;
-					this.SendPropertyChanged("nguoilap");
-					this.OnnguoilapChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_mach", DbType="NChar(10) NOT NULL", CanBeNull=false)]
-		public string mach
-		{
-			get
-			{
-				return this._mach;
-			}
-			set
-			{
-				if ((this._mach != value))
-				{
-					if (this._canho.HasLoadedOrAssignedValue)
-					{
-						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
-					}
-					this.OnmachChanging(value);
-					this.SendPropertyChanging();
-					this._mach = value;
-					this.SendPropertyChanged("mach");
-					this.OnmachChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_tenhd", DbType="NVarChar(50)")]
-		public string tenhd
-		{
-			get
-			{
-				return this._tenhd;
-			}
-			set
-			{
-				if ((this._tenhd != value))
-				{
-					this.OntenhdChanging(value);
-					this.SendPropertyChanging();
-					this._tenhd = value;
-					this.SendPropertyChanged("tenhd");
-					this.OntenhdChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_dvt", DbType="NVarChar(50)")]
-		public string dvt
-		{
-			get
-			{
-				return this._dvt;
-			}
-			set
-			{
-				if ((this._dvt != value))
-				{
-					this.OndvtChanging(value);
-					this.SendPropertyChanging();
-					this._dvt = value;
-					this.SendPropertyChanged("dvt");
-					this.OndvtChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_soluongmax", DbType="Int")]
-		public System.Nullable<int> soluongmax
-		{
-			get
-			{
-				return this._soluongmax;
-			}
-			set
-			{
-				if ((this._soluongmax != value))
-				{
-					this.OnsoluongmaxChanging(value);
-					this.SendPropertyChanging();
-					this._soluongmax = value;
-					this.SendPropertyChanged("soluongmax");
-					this.OnsoluongmaxChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ngaylapHD", DbType="Date")]
-		public System.Nullable<System.DateTime> ngaylapHD
-		{
-			get
-			{
-				return this._ngaylapHD;
-			}
-			set
-			{
-				if ((this._ngaylapHD != value))
-				{
-					this.OnngaylapHDChanging(value);
-					this.SendPropertyChanging();
-					this._ngaylapHD = value;
-					this.SendPropertyChanged("ngaylapHD");
-					this.OnngaylapHDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_tongtien", DbType="Float")]
-		public System.Nullable<double> tongtien
-		{
-			get
-			{
-				return this._tongtien;
-			}
-			set
-			{
-				if ((this._tongtien != value))
-				{
-					this.OntongtienChanging(value);
-					this.SendPropertyChanging();
-					this._tongtien = value;
-					this.SendPropertyChanged("tongtien");
-					this.OntongtienChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="hoadon_CT_HD", Storage="_CT_HDs", ThisKey="mahd", OtherKey="mahd")]
-		public EntitySet<CT_HD> CT_HDs
-		{
-			get
-			{
-				return this._CT_HDs;
-			}
-			set
-			{
-				this._CT_HDs.Assign(value);
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="canho_hoadon", Storage="_canho", ThisKey="mach", OtherKey="mach", IsForeignKey=true)]
-		public canho canho
-		{
-			get
-			{
-				return this._canho.Entity;
-			}
-			set
-			{
-				canho previousValue = this._canho.Entity;
-				if (((previousValue != value) 
-							|| (this._canho.HasLoadedOrAssignedValue == false)))
-				{
-					this.SendPropertyChanging();
-					if ((previousValue != null))
-					{
-						this._canho.Entity = null;
-						previousValue.hoadons.Remove(this);
-					}
-					this._canho.Entity = value;
-					if ((value != null))
-					{
-						value.hoadons.Add(this);
-						this._mach = value.mach;
-					}
-					else
-					{
-						this._mach = default(string);
-					}
-					this.SendPropertyChanged("canho");
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-		
-		private void attach_CT_HDs(CT_HD entity)
-		{
-			this.SendPropertyChanging();
-			entity.hoadon = this;
-		}
-		
-		private void detach_CT_HDs(CT_HD entity)
-		{
-			this.SendPropertyChanging();
-			entity.hoadon = null;
 		}
 	}
 	

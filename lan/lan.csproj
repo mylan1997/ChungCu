@@ -330,14 +330,6 @@
       <LastGenOutput>DataCC.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DO_ANDataSet.xsc">
-      <DependentUpon>DO_ANDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DO_ANDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DO_ANDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
     <None Include="DO_ANDataSet.xss">
       <DependentUpon>DO_ANDataSet.xsd</DependentUpon>
     </None>
