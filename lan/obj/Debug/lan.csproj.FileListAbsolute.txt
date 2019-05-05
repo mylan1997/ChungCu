@@ -26,7 +26,6 @@ E:\do_an\lan\lan\obj\Debug\RdlCompile.compiled
 E:\do_an\lan\lan\obj\Debug\lan.bill_nuoc.resources
 E:\do_an\lan\lan\obj\Debug\lan.hoa_don.resources
 E:\do_an\lan\lan\obj\Debug\lan.Tao_tk.resources
-E:\do_an\lan\lan\obj\Debug\lan.demo.resources
 E:\do_an\lan\lan\obj\Debug\lan.RibbonForm1.resources
 E:\do_an\lan\lan\obj\Debug\lan.RibbonForm2.resources
 E:\do_an\lan\lan\obj\Debug\lan.csprojResolveAssemblyReference.cache

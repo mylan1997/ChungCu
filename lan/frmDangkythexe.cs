@@ -9,7 +9,7 @@ using DevComponents.DotNetBar;
 
 namespace lan
 {
-    public partial class frmDangkythexe : Form
+    public partial class frmDangkythexe : DevComponents.DotNetBar.RibbonForm
     {
         public frmDangkythexe()
         {
@@ -22,6 +22,11 @@ namespace lan
         }
 
         private void labelX8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX1_Click(object sender, EventArgs e)
         {
 
         }

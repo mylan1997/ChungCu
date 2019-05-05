@@ -36,11 +36,24 @@ namespace lan
 
         private void buttonItem15_Click(object sender, EventArgs e)
         {
-            demo frm = new demo();
+            frmQuanlyxe frm = new frmQuanlyxe();
 
             frm.MdiParent = this;
             frm.Show();
             frm.Dock = DockStyle.Fill;
+        }
+
+        private void btn_dangkythexe_Click(object sender, EventArgs e)
+        {
+            frmDangkythexe frm = new frmDangkythexe();
+            frm.MdiParent = this;
+            frm.Show();
+            frm.Dock = DockStyle.Fill;
+        }
+
+        private void btn_dangxuat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

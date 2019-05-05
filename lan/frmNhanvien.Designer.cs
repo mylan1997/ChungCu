@@ -342,6 +342,7 @@
             this.btn_huy.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_huy.TabIndex = 9;
             this.btn_huy.Text = "Hủy";
+            this.btn_huy.Click += new System.EventHandler(this.btn_huy_Click);
             // 
             // frmNhanvien
             // 
