@@ -70,3 +70,5 @@ E:\do_an\lan\lan\obj\Debug\lan.frmDangnhap.resources
 E:\do_an\lan\lan\obj\Debug\lan.frmDangkythexe.resources
 E:\do_an\lan\lan\obj\Debug\lan.frmQuanlyxe.resources
 >>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
+E:\do_an\lan\lan\obj\Debug\lan.frmCanHo.resources
+E:\do_an\lan\lan\obj\Debug\lan.frmDanCu.resources

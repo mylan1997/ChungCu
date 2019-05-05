@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RibbonForm1));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
-<<<<<<< HEAD
             this.ribbonPanel4 = new DevComponents.DotNetBar.RibbonPanel();
             this.rb_nv2 = new DevComponents.DotNetBar.RibbonBar();
             this.btn_dsnv = new DevComponents.DotNetBar.ButtonItem();
@@ -40,13 +39,11 @@
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
             this.btn_canho = new DevComponents.DotNetBar.ButtonItem();
-=======
             this.ribbonPanel6 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
             this.btn_dangxuat = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonBar4 = new DevComponents.DotNetBar.RibbonBar();
             this.btn_dangnhap = new DevComponents.DotNetBar.ButtonItem();
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
             this.rb_dv = new DevComponents.DotNetBar.RibbonBar();
             this.btn_dichvu = new DevComponents.DotNetBar.ButtonItem();
@@ -59,13 +56,11 @@
             this.ribbonPanel3 = new DevComponents.DotNetBar.RibbonPanel();
             this.rb_thongtin = new DevComponents.DotNetBar.RibbonBar();
             this.btn_dancu = new DevComponents.DotNetBar.ButtonItem();
-<<<<<<< HEAD
             this.ribbonPanel6 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
             this.btn_dangxuat = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonBar4 = new DevComponents.DotNetBar.RibbonBar();
             this.btn_dangnhap = new DevComponents.DotNetBar.ButtonItem();
-=======
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
             this.btn_canho = new DevComponents.DotNetBar.ButtonItem();
@@ -74,7 +69,6 @@
             this.btn_dsnv = new DevComponents.DotNetBar.ButtonItem();
             this.rb_nv = new DevComponents.DotNetBar.RibbonBar();
             this.btn_loainv = new DevComponents.DotNetBar.ButtonItem();
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             this.ribbonPanel5 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar3 = new DevComponents.DotNetBar.RibbonBar();
             this.btn_thu = new DevComponents.DotNetBar.ButtonItem();
@@ -110,19 +104,16 @@
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.ribbonControl1.SuspendLayout();
-<<<<<<< HEAD
             this.ribbonPanel4.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
             this.ribbonPanel3.SuspendLayout();
             this.ribbonPanel6.SuspendLayout();
-=======
             this.ribbonPanel6.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
             this.ribbonPanel3.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel4.SuspendLayout();
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             this.ribbonPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -137,10 +128,7 @@
             this.ribbonControl1.Controls.Add(this.ribbonPanel3);
             this.ribbonControl1.Controls.Add(this.ribbonPanel4);
             this.ribbonControl1.Controls.Add(this.ribbonPanel5);
-<<<<<<< HEAD
-=======
             this.ribbonControl1.Controls.Add(this.ribbonPanel3);
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             this.ribbonControl1.Controls.Add(this.ribbonPanel2);
             this.ribbonControl1.Controls.Add(this.ribbonPanel1);
             this.ribbonControl1.Controls.Add(this.ribbonPanel6);
@@ -181,10 +169,7 @@
             this.ribbonControl1.TabGroupHeight = 14;
             this.ribbonControl1.TabIndex = 0;
             this.ribbonControl1.Text = "Quản lý chung cư";
-            // 
-<<<<<<< HEAD
-            // ribbonPanel4
-=======
+
             // ribbonPanel6
             // 
             this.ribbonPanel6.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -277,7 +262,6 @@
             this.ribbonBar4.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // 
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             // 
             this.ribbonBar4.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
@@ -309,12 +293,9 @@
             this.ribbonPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // 
-<<<<<<< HEAD
             this.ribbonPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonPanel4.TabIndex = 4;
             this.ribbonPanel4.Visible = false;
-=======
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             // 
             this.ribbonPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
@@ -349,7 +330,6 @@
             // 
             // 
             // 
-<<<<<<< HEAD
             // btn_dsnv
             // 
             this.btn_dsnv.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
@@ -362,9 +342,7 @@
             this.btn_dsnv.Click += new System.EventHandler(this.btn_dsnv_Click);
             // 
             // rb_nv
-=======
             this.rb_dv.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             // 
             // 
             // 
@@ -490,7 +468,6 @@
             // 
             // btn_loainv
             // 
-<<<<<<< HEAD
             this.btn_loainv.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
             this.btn_loainv.Image = global::lan.Properties.Resources.finance_65_64;
             this.btn_loainv.ImageListSizeSelection = DevComponents.DotNetBar.eButtonImageListSelection.Medium;
@@ -498,7 +475,6 @@
             this.btn_loainv.Name = "btn_loainv";
             this.btn_loainv.SubItemsExpandWidth = 14;
             this.btn_loainv.Text = "Loại nhân viên";
-=======
             this.ribbonPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonPanel3.Controls.Add(this.rb_thongtin);
             this.ribbonPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -506,7 +482,6 @@
             this.ribbonPanel3.Name = "ribbonPanel3";
             this.ribbonPanel3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
             this.ribbonPanel3.Size = new System.Drawing.Size(812, 95);
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             // 
             // ribbonPanel1
             // 
@@ -540,7 +515,6 @@
             // 
             this.ribbonBar1.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
-<<<<<<< HEAD
             // 
             // 
             this.ribbonBar1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
@@ -554,7 +528,6 @@
             this.ribbonBar1.Size = new System.Drawing.Size(115, 92);
             this.ribbonBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonBar1.TabIndex = 0;
-=======
             this.rb_thongtin.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.rb_thongtin.ContainerControlProcessDialogKey = true;
             this.rb_thongtin.Dock = System.Windows.Forms.DockStyle.Left;
@@ -567,7 +540,6 @@
             this.rb_thongtin.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.rb_thongtin.TabIndex = 0;
             this.rb_thongtin.Text = "Thông tin";
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             // 
             // 
             // 
@@ -648,7 +620,6 @@
             this.ribbonBar1.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // 
-<<<<<<< HEAD
             // btn_dichvu
             // 
             this.btn_dichvu.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
@@ -660,8 +631,7 @@
             this.btn_dichvu.Text = "Dịch vụ khác";
             // 
             // rb_diennuoc
-=======
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
+
             // 
             this.ribbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
@@ -696,7 +666,6 @@
             // 
             // 
             // 
-<<<<<<< HEAD
             // btn_dien
             // 
             this.btn_dien.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
@@ -718,10 +687,8 @@
             this.btn_nuoc.Text = "Nước";
             // 
             // rb_thexe
-=======
             this.ribbonPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonPanel4.TabIndex = 4;
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             // 
             // rb_nv2
             // 
@@ -751,9 +718,7 @@
             // 
             // 
             // 
-<<<<<<< HEAD
             // btn_dangkythexe
-=======
             this.rb_nv2.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // btn_dsnv
@@ -926,7 +891,6 @@
             this.btn_chiphi.Text = "Chi phí";
             // 
             // rb_hethong
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
             // 
             this.btn_dangkythexe.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
             this.btn_dangkythexe.Image = ((System.Drawing.Image)(resources.GetObject("btn_dangkythexe.Image")));
@@ -965,7 +929,6 @@
             // 
             this.ribbonPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
-<<<<<<< HEAD
             // 
             // 
             this.ribbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
@@ -1279,8 +1242,7 @@
             this.rb_thongke.Panel = this.ribbonPanel5;
             this.rb_thongke.Text = "Thống kê";
             // 
-=======
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
+
             // applicationButton1
             // 
             this.applicationButton1.AutoExpandOnClick = true;
@@ -1523,11 +1485,9 @@
             // 
             // styleManager1
             // 
-<<<<<<< HEAD
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2007VistaGlass;
-=======
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2007Blue;
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
+
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(163)))), ((int)(((byte)(26))))));
             // 
             // RibbonForm1
@@ -1540,19 +1500,19 @@
             this.Text = "QUẢN LÝ CHUNG CƯ";
             this.ribbonControl1.ResumeLayout(false);
             this.ribbonControl1.PerformLayout();
-<<<<<<< HEAD
+
             this.ribbonPanel4.ResumeLayout(false);
             this.ribbonPanel1.ResumeLayout(false);
             this.ribbonPanel2.ResumeLayout(false);
             this.ribbonPanel3.ResumeLayout(false);
             this.ribbonPanel6.ResumeLayout(false);
-=======
+
             this.ribbonPanel6.ResumeLayout(false);
             this.ribbonPanel2.ResumeLayout(false);
             this.ribbonPanel3.ResumeLayout(false);
             this.ribbonPanel1.ResumeLayout(false);
             this.ribbonPanel4.ResumeLayout(false);
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
+
             this.ribbonPanel5.ResumeLayout(false);
             this.ResumeLayout(false);
 

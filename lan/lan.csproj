@@ -87,7 +87,6 @@
     <Compile Include="form_update mk.Designer.cs">
       <DependentUpon>form_update mk.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="frmCanHo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,7 +98,7 @@
     </Compile>
     <Compile Include="frmDanCu.Designer.cs">
       <DependentUpon>frmDanCu.cs</DependentUpon>
-=======
+    </Compile>
     <Compile Include="frmDangkythexe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,7 +110,6 @@
     </Compile>
     <Compile Include="frmDangnhap.Designer.cs">
       <DependentUpon>frmDangnhap.cs</DependentUpon>
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
     </Compile>
     <Compile Include="frmNhanvien.cs">
       <SubType>Form</SubType>
@@ -246,19 +244,17 @@
     <EmbeddedResource Include="form_update mk.resx">
       <DependentUpon>form_update mk.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="frmCanHo.resx">
       <DependentUpon>frmCanHo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDanCu.resx">
       <DependentUpon>frmDanCu.cs</DependentUpon>
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDangkythexe.resx">
       <DependentUpon>frmDangkythexe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDangnhap.resx">
       <DependentUpon>frmDangnhap.cs</DependentUpon>
->>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
     </EmbeddedResource>
     <EmbeddedResource Include="frmNhanvien.resx">
       <DependentUpon>frmNhanvien.cs</DependentUpon>
