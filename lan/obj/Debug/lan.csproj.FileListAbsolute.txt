@@ -36,7 +36,6 @@ C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.exe
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.pdb
 C:\Users\ACER\Desktop\do an\ChungCu\lan\bin\Debug\lan.exe
 C:\Users\ACER\Desktop\do an\ChungCu\lan\bin\Debug\lan.pdb
-C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.csprojResolveAssemblyReference.cache
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.bao_cao.resources
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.bill_dien.resources
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.bill_nuoc.resources
@@ -64,3 +63,5 @@ C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.vang.resources
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.csproj.GenerateResource.Cache
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\RdlCompile.cache
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\RdlCompile.compiled
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.frmDanCu.resources
+C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.frmCanHo.resources

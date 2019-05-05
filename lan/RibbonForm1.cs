@@ -18,7 +18,7 @@ namespace lan
 
         private void btn_canho_Click(object sender, EventArgs e)
         {
-            RibbonForm2 frm = new RibbonForm2();
+            frmCanHo frm = new frmCanHo();
 
             frm.MdiParent = this;
             frm.Show();
@@ -29,6 +29,14 @@ namespace lan
         {
             frmNhanvien frm = new frmNhanvien();
 
+            frm.MdiParent = this;
+            frm.Show();
+            frm.Dock = DockStyle.Fill;
+        }
+
+        private void btn_dancu_Click(object sender, EventArgs e)
+        {
+            frmDanCu frm = new frmDanCu();
             frm.MdiParent = this;
             frm.Show();
             frm.Dock = DockStyle.Fill;

@@ -92,6 +92,18 @@
     <Compile Include="form_update mk.Designer.cs">
       <DependentUpon>form_update mk.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCanHo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCanHo.Designer.cs">
+      <DependentUpon>frmCanHo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDanCu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDanCu.Designer.cs">
+      <DependentUpon>frmDanCu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNhanvien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -221,6 +233,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="form_update mk.resx">
       <DependentUpon>form_update mk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCanHo.resx">
+      <DependentUpon>frmCanHo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDanCu.resx">
+      <DependentUpon>frmDanCu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNhanvien.resx">
       <DependentUpon>frmNhanvien.cs</DependentUpon>
