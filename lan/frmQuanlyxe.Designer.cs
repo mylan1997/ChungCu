@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQuanlyxe));
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
@@ -39,18 +39,26 @@
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.labelX6 = new DevComponents.DotNetBar.LabelX();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.date = new System.Windows.Forms.DateTimePicker();
             this.txt_hten = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.txt_bienso = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.txt_mathe = new System.Windows.Forms.TextBox();
-            this.dataGridViewX1 = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.grd_xe = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.btn_huy = new DevComponents.DotNetBar.ButtonX();
             this.btn_xoa = new DevComponents.DotNetBar.ButtonX();
             this.btn_sua = new DevComponents.DotNetBar.ButtonX();
             this.btn_them = new DevComponents.DotNetBar.ButtonX();
+            this.labelX7 = new DevComponents.DotNetBar.LabelX();
+            this.txt_madc = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.labelX8 = new DevComponents.DotNetBar.LabelX();
+            this.labelX9 = new DevComponents.DotNetBar.LabelX();
+            this.txt_dongia = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.check_co = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.labelX10 = new DevComponents.DotNetBar.LabelX();
+            this.txt_tenxe = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.comb_loaixe = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grd_xe)).BeginInit();
             this.SuspendLayout();
             // 
             // labelX1
@@ -74,7 +82,7 @@
             // 
             // 
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(12, 44);
+            this.labelX2.Location = new System.Drawing.Point(10, 28);
             this.labelX2.Name = "labelX2";
             this.labelX2.Size = new System.Drawing.Size(75, 10);
             this.labelX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
@@ -87,7 +95,7 @@
             // 
             // 
             this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(12, 86);
+            this.labelX3.Location = new System.Drawing.Point(10, 69);
             this.labelX3.Name = "labelX3";
             this.labelX3.Size = new System.Drawing.Size(75, 17);
             this.labelX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
@@ -100,12 +108,12 @@
             // 
             // 
             this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.Location = new System.Drawing.Point(351, 43);
+            this.labelX4.Location = new System.Drawing.Point(362, 29);
             this.labelX4.Name = "labelX4";
             this.labelX4.Size = new System.Drawing.Size(75, 17);
             this.labelX4.Style = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
             this.labelX4.TabIndex = 3;
-            this.labelX4.Text = "Chủ xe :";
+            this.labelX4.Text = "Tên Chủ xe :";
             // 
             // labelX5
             // 
@@ -113,7 +121,7 @@
             // 
             // 
             this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX5.Location = new System.Drawing.Point(351, 81);
+            this.labelX5.Location = new System.Drawing.Point(362, 67);
             this.labelX5.Name = "labelX5";
             this.labelX5.Size = new System.Drawing.Size(75, 23);
             this.labelX5.Style = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
@@ -126,7 +134,7 @@
             // 
             // 
             this.labelX6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX6.Location = new System.Drawing.Point(12, 128);
+            this.labelX6.Location = new System.Drawing.Point(10, 137);
             this.labelX6.Name = "labelX6";
             this.labelX6.Size = new System.Drawing.Size(87, 16);
             this.labelX6.Style = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
@@ -135,8 +143,16 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.textBoxX1);
+            this.groupBox1.Controls.Add(this.comb_loaixe);
+            this.groupBox1.Controls.Add(this.txt_tenxe);
+            this.groupBox1.Controls.Add(this.labelX10);
+            this.groupBox1.Controls.Add(this.check_co);
+            this.groupBox1.Controls.Add(this.txt_dongia);
+            this.groupBox1.Controls.Add(this.labelX9);
+            this.groupBox1.Controls.Add(this.labelX8);
+            this.groupBox1.Controls.Add(this.txt_madc);
+            this.groupBox1.Controls.Add(this.labelX7);
+            this.groupBox1.Controls.Add(this.date);
             this.groupBox1.Controls.Add(this.txt_hten);
             this.groupBox1.Controls.Add(this.txt_bienso);
             this.groupBox1.Controls.Add(this.txt_mathe);
@@ -147,31 +163,18 @@
             this.groupBox1.Controls.Add(this.labelX4);
             this.groupBox1.Location = new System.Drawing.Point(29, 69);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(664, 158);
+            this.groupBox1.Size = new System.Drawing.Size(670, 196);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin ";
             // 
-            // dateTimePicker1
+            // date
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(112, 124);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(205, 20);
-            this.dateTimePicker1.TabIndex = 16;
-            // 
-            // textBoxX1
-            // 
-            // 
-            // 
-            // 
-            this.textBoxX1.Border.Class = "TextBoxBorder";
-            this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX1.Location = new System.Drawing.Point(411, 84);
-            this.textBoxX1.Name = "textBoxX1";
-            this.textBoxX1.PreventEnterBeep = true;
-            this.textBoxX1.Size = new System.Drawing.Size(245, 20);
-            this.textBoxX1.TabIndex = 15;
+            this.date.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.date.Location = new System.Drawing.Point(110, 133);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(189, 20);
+            this.date.TabIndex = 16;
             // 
             // txt_hten
             // 
@@ -180,10 +183,10 @@
             // 
             this.txt_hten.Border.Class = "TextBoxBorder";
             this.txt_hten.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txt_hten.Location = new System.Drawing.Point(411, 39);
+            this.txt_hten.Location = new System.Drawing.Point(443, 29);
             this.txt_hten.Name = "txt_hten";
             this.txt_hten.PreventEnterBeep = true;
-            this.txt_hten.Size = new System.Drawing.Size(245, 20);
+            this.txt_hten.Size = new System.Drawing.Size(212, 20);
             this.txt_hten.TabIndex = 14;
             // 
             // txt_bienso
@@ -193,60 +196,63 @@
             // 
             this.txt_bienso.Border.Class = "TextBoxBorder";
             this.txt_bienso.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txt_bienso.Location = new System.Drawing.Point(72, 82);
+            this.txt_bienso.Location = new System.Drawing.Point(110, 66);
             this.txt_bienso.Name = "txt_bienso";
             this.txt_bienso.PreventEnterBeep = true;
-            this.txt_bienso.Size = new System.Drawing.Size(245, 20);
+            this.txt_bienso.Size = new System.Drawing.Size(229, 20);
             this.txt_bienso.TabIndex = 13;
             // 
             // txt_mathe
             // 
             this.txt_mathe.Enabled = false;
-            this.txt_mathe.Location = new System.Drawing.Point(72, 39);
+            this.txt_mathe.Location = new System.Drawing.Point(110, 28);
             this.txt_mathe.Name = "txt_mathe";
-            this.txt_mathe.Size = new System.Drawing.Size(245, 20);
+            this.txt_mathe.Size = new System.Drawing.Size(229, 20);
             this.txt_mathe.TabIndex = 6;
             // 
-            // dataGridViewX1
+            // grd_xe
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewX1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridViewX1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(21)))), ((int)(((byte)(110)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridViewX1.EnableHeadersVisualStyles = false;
-            this.dataGridViewX1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dataGridViewX1.Location = new System.Drawing.Point(29, 251);
-            this.dataGridViewX1.Name = "dataGridViewX1";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewX1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridViewX1.Size = new System.Drawing.Size(762, 232);
-            this.dataGridViewX1.TabIndex = 7;
+            this.grd_xe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grd_xe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.grd_xe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grd_xe.DefaultCellStyle = dataGridViewCellStyle8;
+            this.grd_xe.EnableHeadersVisualStyles = false;
+            this.grd_xe.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
+            this.grd_xe.Location = new System.Drawing.Point(29, 271);
+            this.grd_xe.Name = "grd_xe";
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grd_xe.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            this.grd_xe.Size = new System.Drawing.Size(771, 208);
+            this.grd_xe.TabIndex = 7;
+            this.grd_xe.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_xe_CellContentClick);
+            this.grd_xe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_xe_CellContentClick);
             // 
             // btn_huy
             // 
             this.btn_huy.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_huy.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_huy.Image = ((System.Drawing.Image)(resources.GetObject("btn_huy.Image")));
-            this.btn_huy.Location = new System.Drawing.Point(699, 210);
+            this.btn_huy.Location = new System.Drawing.Point(705, 215);
             this.btn_huy.Name = "btn_huy";
             this.btn_huy.Size = new System.Drawing.Size(95, 26);
             this.btn_huy.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -258,42 +264,167 @@
             this.btn_xoa.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_xoa.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_xoa.Image = ((System.Drawing.Image)(resources.GetObject("btn_xoa.Image")));
-            this.btn_xoa.Location = new System.Drawing.Point(699, 166);
+            this.btn_xoa.Location = new System.Drawing.Point(705, 172);
             this.btn_xoa.Name = "btn_xoa";
             this.btn_xoa.Size = new System.Drawing.Size(95, 26);
             this.btn_xoa.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_xoa.TabIndex = 19;
             this.btn_xoa.Text = "Xóa";
+            this.btn_xoa.Click += new System.EventHandler(this.btn_xoa_Click);
             // 
             // btn_sua
             // 
             this.btn_sua.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_sua.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_sua.Image = ((System.Drawing.Image)(resources.GetObject("btn_sua.Image")));
-            this.btn_sua.Location = new System.Drawing.Point(699, 124);
+            this.btn_sua.Location = new System.Drawing.Point(705, 131);
             this.btn_sua.Name = "btn_sua";
             this.btn_sua.Size = new System.Drawing.Size(95, 26);
             this.btn_sua.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_sua.TabIndex = 18;
             this.btn_sua.Text = "Sửa";
+            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
             // 
             // btn_them
             // 
             this.btn_them.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_them.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_them.Image = ((System.Drawing.Image)(resources.GetObject("btn_them.Image")));
-            this.btn_them.Location = new System.Drawing.Point(699, 89);
+            this.btn_them.Location = new System.Drawing.Point(705, 89);
             this.btn_them.Name = "btn_them";
             this.btn_them.Size = new System.Drawing.Size(95, 26);
             this.btn_them.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_them.TabIndex = 17;
             this.btn_them.Text = "Thêm";
+            this.btn_them.Click += new System.EventHandler(this.btn_them_Click);
+            // 
+            // labelX7
+            // 
+            // 
+            // 
+            // 
+            this.labelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX7.Location = new System.Drawing.Point(362, 105);
+            this.labelX7.Name = "labelX7";
+            this.labelX7.Size = new System.Drawing.Size(75, 20);
+            this.labelX7.Style = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
+            this.labelX7.TabIndex = 17;
+            this.labelX7.Text = "Mã Dân Cư :";
+            // 
+            // txt_madc
+            // 
+            // 
+            // 
+            // 
+            this.txt_madc.Border.Class = "TextBoxBorder";
+            this.txt_madc.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txt_madc.Location = new System.Drawing.Point(443, 103);
+            this.txt_madc.Name = "txt_madc";
+            this.txt_madc.PreventEnterBeep = true;
+            this.txt_madc.Size = new System.Drawing.Size(212, 20);
+            this.txt_madc.TabIndex = 18;
+            // 
+            // labelX8
+            // 
+            // 
+            // 
+            // 
+            this.labelX8.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX8.Location = new System.Drawing.Point(362, 140);
+            this.labelX8.Name = "labelX8";
+            this.labelX8.Size = new System.Drawing.Size(75, 23);
+            this.labelX8.Style = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
+            this.labelX8.TabIndex = 19;
+            this.labelX8.Text = "Đơn Gía :";
+            // 
+            // labelX9
+            // 
+            // 
+            // 
+            // 
+            this.labelX9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX9.Location = new System.Drawing.Point(10, 102);
+            this.labelX9.Name = "labelX9";
+            this.labelX9.Size = new System.Drawing.Size(75, 23);
+            this.labelX9.Style = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
+            this.labelX9.TabIndex = 20;
+            this.labelX9.Text = "Kích hoạt :";
+            // 
+            // txt_dongia
+            // 
+            // 
+            // 
+            // 
+            this.txt_dongia.Border.Class = "TextBoxBorder";
+            this.txt_dongia.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txt_dongia.Location = new System.Drawing.Point(443, 143);
+            this.txt_dongia.Name = "txt_dongia";
+            this.txt_dongia.PreventEnterBeep = true;
+            this.txt_dongia.Size = new System.Drawing.Size(212, 20);
+            this.txt_dongia.TabIndex = 21;
+            // 
+            // check_co
+            // 
+            // 
+            // 
+            // 
+            this.check_co.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.check_co.Checked = true;
+            this.check_co.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.check_co.CheckValue = "Y";
+            this.check_co.Location = new System.Drawing.Point(110, 99);
+            this.check_co.Name = "check_co";
+            this.check_co.Size = new System.Drawing.Size(100, 23);
+            this.check_co.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.check_co.TabIndex = 22;
+            this.check_co.Text = "Có";
+            // 
+            // labelX10
+            // 
+            // 
+            // 
+            // 
+            this.labelX10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX10.Location = new System.Drawing.Point(10, 167);
+            this.labelX10.Name = "labelX10";
+            this.labelX10.Size = new System.Drawing.Size(75, 23);
+            this.labelX10.Style = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
+            this.labelX10.TabIndex = 23;
+            this.labelX10.Text = "Tên xe :";
+            // 
+            // txt_tenxe
+            // 
+            // 
+            // 
+            // 
+            this.txt_tenxe.Border.Class = "TextBoxBorder";
+            this.txt_tenxe.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txt_tenxe.Location = new System.Drawing.Point(110, 167);
+            this.txt_tenxe.Name = "txt_tenxe";
+            this.txt_tenxe.PreventEnterBeep = true;
+            this.txt_tenxe.Size = new System.Drawing.Size(229, 20);
+            this.txt_tenxe.TabIndex = 24;
+            // 
+            // comb_loaixe
+            // 
+            this.comb_loaixe.FormattingEnabled = true;
+            this.comb_loaixe.Items.AddRange(new object[] {
+            "Xe Đạp",
+            "Xe Đạp Điện",
+            "Xe Số",
+            "Xe Ga",
+            "Xe Hơi"});
+            this.comb_loaixe.Location = new System.Drawing.Point(443, 66);
+            this.comb_loaixe.Name = "comb_loaixe";
+            this.comb_loaixe.Size = new System.Drawing.Size(212, 21);
+            this.comb_loaixe.TabIndex = 25;
+            this.comb_loaixe.SelectedIndexChanged += new System.EventHandler(this.comb_loaixe_SelectedIndexChanged);
             // 
             // frmQuanlyxe
             // 
-            this.ClientSize = new System.Drawing.Size(826, 510);
+            this.ClientSize = new System.Drawing.Size(828, 494);
             this.Controls.Add(this.btn_huy);
-            this.Controls.Add(this.dataGridViewX1);
+            this.Controls.Add(this.grd_xe);
             this.Controls.Add(this.btn_xoa);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_sua);
@@ -301,9 +432,10 @@
             this.Controls.Add(this.btn_them);
             this.Name = "frmQuanlyxe";
             this.Text = "lâ";
+            this.Load += new System.EventHandler(this.frmQuanlyxe_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grd_xe)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -318,14 +450,22 @@
         private DevComponents.DotNetBar.LabelX labelX6;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txt_mathe;
-        private DevComponents.DotNetBar.Controls.DataGridViewX dataGridViewX1;
+        private DevComponents.DotNetBar.Controls.DataGridViewX grd_xe;
         private DevComponents.DotNetBar.Controls.TextBoxX txt_bienso;
         private DevComponents.DotNetBar.Controls.TextBoxX txt_hten;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX1;
+        private System.Windows.Forms.DateTimePicker date;
         private DevComponents.DotNetBar.ButtonX btn_huy;
         private DevComponents.DotNetBar.ButtonX btn_xoa;
         private DevComponents.DotNetBar.ButtonX btn_sua;
         private DevComponents.DotNetBar.ButtonX btn_them;
+        private DevComponents.DotNetBar.Controls.TextBoxX txt_madc;
+        private DevComponents.DotNetBar.LabelX labelX7;
+        private DevComponents.DotNetBar.Controls.CheckBoxX check_co;
+        private DevComponents.DotNetBar.Controls.TextBoxX txt_dongia;
+        private DevComponents.DotNetBar.LabelX labelX9;
+        private DevComponents.DotNetBar.LabelX labelX8;
+        private DevComponents.DotNetBar.Controls.TextBoxX txt_tenxe;
+        private DevComponents.DotNetBar.LabelX labelX10;
+        private System.Windows.Forms.ComboBox comb_loaixe;
     }
 }

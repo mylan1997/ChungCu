@@ -280,4 +280,17 @@
       <Association Name="nhanvien_phieuxuphat" Member="phieuxuphats" ThisKey="manv" OtherKey="manv" Type="phieuxuphat" />
     </Type>
   </Table>
+  <Table Name="dbo.QL_Xe" Member="QL_Xes">
+    <Type Name="QL_Xe">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BienSoXe" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TenXe" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="TenChuXe" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="LoaiXe" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaDanCu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DonGia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KichHoat" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NgayKichHoat" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
 </Database>

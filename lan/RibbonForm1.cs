@@ -53,7 +53,10 @@ namespace lan
 
         private void btn_dangxuat_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+
+            frmDangnhap frm = new frmDangnhap();          
+            frm.Show();
         }
     }
 }
