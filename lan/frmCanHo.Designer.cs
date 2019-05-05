@@ -48,6 +48,7 @@
             this.labelX7 = new DevComponents.DotNetBar.LabelX();
             this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
             this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
+            this.cbo_sotang = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.groupPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grd_canho)).BeginInit();
             this.groupPanel2.SuspendLayout();
@@ -84,12 +85,13 @@
             // 
             this.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
             this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel1.Controls.Add(this.cbo_sotang);
             this.groupPanel1.Controls.Add(this.grd_canho);
             this.groupPanel1.Controls.Add(this.labelX2);
             this.groupPanel1.DisabledBackColor = System.Drawing.Color.Empty;
             this.groupPanel1.Location = new System.Drawing.Point(31, 70);
             this.groupPanel1.Name = "groupPanel1";
-            this.groupPanel1.Size = new System.Drawing.Size(783, 198);
+            this.groupPanel1.Size = new System.Drawing.Size(792, 198);
             // 
             // 
             // 
@@ -124,7 +126,7 @@
             // grd_canho
             // 
             this.grd_canho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grd_canho.Location = new System.Drawing.Point(19, 64);
+            this.grd_canho.Location = new System.Drawing.Point(19, 49);
             this.grd_canho.Name = "grd_canho";
             this.grd_canho.Size = new System.Drawing.Size(755, 110);
             this.grd_canho.TabIndex = 1;
@@ -148,7 +150,7 @@
             this.groupPanel2.DisabledBackColor = System.Drawing.Color.Empty;
             this.groupPanel2.Location = new System.Drawing.Point(31, 274);
             this.groupPanel2.Name = "groupPanel2";
-            this.groupPanel2.Size = new System.Drawing.Size(783, 203);
+            this.groupPanel2.Size = new System.Drawing.Size(792, 206);
             // 
             // 
             // 
@@ -356,6 +358,18 @@
             this.buttonX1.TabIndex = 3;
             this.buttonX1.Text = "Sửa thông tin";
             // 
+            // cbo_sotang
+            // 
+            this.cbo_sotang.DisplayMember = "Text";
+            this.cbo_sotang.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbo_sotang.FormattingEnabled = true;
+            this.cbo_sotang.ItemHeight = 14;
+            this.cbo_sotang.Location = new System.Drawing.Point(134, 4);
+            this.cbo_sotang.Name = "cbo_sotang";
+            this.cbo_sotang.Size = new System.Drawing.Size(58, 20);
+            this.cbo_sotang.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.cbo_sotang.TabIndex = 2;
+            // 
             // frmCanHo
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(217)))), ((int)(((byte)(247)))));
@@ -396,5 +410,6 @@
         private DevComponents.DotNetBar.LabelX labelX3;
         private DevComponents.DotNetBar.ButtonX buttonX2;
         private DevComponents.DotNetBar.ButtonX buttonX1;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cbo_sotang;
     }
 }

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_Chungcu" Class="DataCCDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-SAS89VBA\SQLEXPRESS;Initial Catalog=QL_Chungcu;Integrated Security=True" SettingsObjectName="lan.Properties.Settings" SettingsPropertyName="QL_ChungcuConnectionString1" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-77VKD1S\SQLEXPRESS;Initial Catalog=QL_Chungcu;Persist Security Info=True;User ID=sa" SettingsObjectName="lan.Properties.Settings" SettingsPropertyName="QL_ChungcuConnectionString2" Provider="System.Data.SqlClient" />
   <Table Name="dbo.canho" Member="canhos">
     <Type Name="canho">
       <Column Name="mach" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />

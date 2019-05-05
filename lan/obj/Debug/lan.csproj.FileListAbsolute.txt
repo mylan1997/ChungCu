@@ -26,7 +26,6 @@ E:\do_an\lan\lan\obj\Debug\RdlCompile.compiled
 E:\do_an\lan\lan\obj\Debug\lan.bill_nuoc.resources
 E:\do_an\lan\lan\obj\Debug\lan.hoa_don.resources
 E:\do_an\lan\lan\obj\Debug\lan.Tao_tk.resources
-E:\do_an\lan\lan\obj\Debug\lan.demo.resources
 E:\do_an\lan\lan\obj\Debug\lan.RibbonForm1.resources
 E:\do_an\lan\lan\obj\Debug\lan.RibbonForm2.resources
 E:\do_an\lan\lan\obj\Debug\lan.csprojResolveAssemblyReference.cache
@@ -63,5 +62,11 @@ C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.vang.resources
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.csproj.GenerateResource.Cache
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\RdlCompile.cache
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\RdlCompile.compiled
+<<<<<<< HEAD
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.frmDanCu.resources
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.frmCanHo.resources
+=======
+E:\do_an\lan\lan\obj\Debug\lan.frmDangnhap.resources
+E:\do_an\lan\lan\obj\Debug\lan.frmDangkythexe.resources
+E:\do_an\lan\lan\obj\Debug\lan.frmQuanlyxe.resources
+>>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e

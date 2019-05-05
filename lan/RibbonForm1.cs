@@ -34,12 +34,35 @@ namespace lan
             frm.Dock = DockStyle.Fill;
         }
 
+<<<<<<< HEAD
         private void btn_dancu_Click(object sender, EventArgs e)
         {
             frmDanCu frm = new frmDanCu();
+=======
+        private void buttonItem15_Click(object sender, EventArgs e)
+        {
+            frmQuanlyxe frm = new frmQuanlyxe();
+
             frm.MdiParent = this;
             frm.Show();
             frm.Dock = DockStyle.Fill;
         }
+
+        private void btn_dangkythexe_Click(object sender, EventArgs e)
+        {
+            frmDangkythexe frm = new frmDangkythexe();
+>>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
+            frm.MdiParent = this;
+            frm.Show();
+            frm.Dock = DockStyle.Fill;
+        }
+<<<<<<< HEAD
+=======
+
+        private void btn_dangxuat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+>>>>>>> 4587d3b4a34b8fb269861fde531108f65101543e
     }
 }
