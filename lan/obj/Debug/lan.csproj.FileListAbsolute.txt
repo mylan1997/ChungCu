@@ -1,35 +1,3 @@
-E:\do_an\lan\lan\bin\Debug\lan.exe.config
-E:\do_an\lan\lan\bin\Debug\lan.exe
-E:\do_an\lan\lan\bin\Debug\lan.pdb
-E:\do_an\lan\lan\obj\Debug\lan.bao_cao.resources
-E:\do_an\lan\lan\obj\Debug\lan.nhankhau_phieu.resources
-E:\do_an\lan\lan\obj\Debug\lan.Form_danh_muc.resources
-E:\do_an\lan\lan\obj\Debug\lan.Form1.resources
-E:\do_an\lan\lan\obj\Debug\lan.Properties.Resources.resources
-E:\do_an\lan\lan\obj\Debug\lan.ql_canho.resources
-E:\do_an\lan\lan\obj\Debug\lan.ql_dancu.resources
-E:\do_an\lan\lan\obj\Debug\lan.ql_dv.resources
-E:\do_an\lan\lan\obj\Debug\lan.ql_nhanvien.resources
-E:\do_an\lan\lan\obj\Debug\lan.Sua_tt.resources
-E:\do_an\lan\lan\obj\Debug\lan.thongke.resources
-E:\do_an\lan\lan\obj\Debug\lan.tracuu.resources
-E:\do_an\lan\lan\obj\Debug\lan.csproj.GenerateResource.Cache
-E:\do_an\lan\lan\obj\Debug\lan.exe
-E:\do_an\lan\lan\obj\Debug\lan.pdb
-E:\do_an\lan\lan\obj\Debug\lan.them.resources
-E:\do_an\lan\lan\obj\Debug\lan.vang.resources
-E:\do_an\lan\lan\obj\Debug\lan.form_update_mk.resources
-E:\do_an\lan\lan\obj\Debug\lan.form_dangnhap.resources
-E:\do_an\lan\lan\obj\Debug\lan.bill_dien.resources
-E:\do_an\lan\lan\obj\Debug\RdlCompile.cache
-E:\do_an\lan\lan\obj\Debug\RdlCompile.compiled
-E:\do_an\lan\lan\obj\Debug\lan.bill_nuoc.resources
-E:\do_an\lan\lan\obj\Debug\lan.hoa_don.resources
-E:\do_an\lan\lan\obj\Debug\lan.Tao_tk.resources
-E:\do_an\lan\lan\obj\Debug\lan.RibbonForm1.resources
-E:\do_an\lan\lan\obj\Debug\lan.RibbonForm2.resources
-E:\do_an\lan\lan\obj\Debug\lan.csprojResolveAssemblyReference.cache
-E:\do_an\lan\lan\obj\Debug\lan.frmNhanvien.resources
 C:\Users\ACER\Desktop\do an\ChungCu\lan\bin\Debug\lan.exe.config
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.exe
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.pdb
@@ -63,6 +31,39 @@ C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.vang.resources
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\lan.csproj.GenerateResource.Cache
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\RdlCompile.cache
 C:\Users\ACER\Desktop\do an\ChungCu\lan\obj\Debug\RdlCompile.compiled
-E:\do_an\lan\lan\obj\Debug\lan.frmDangnhap.resources
+E:\do_an\lan\lan\bin\Debug\lan.exe.config
+E:\do_an\lan\lan\bin\Debug\lan.exe
+E:\do_an\lan\lan\bin\Debug\lan.pdb
+E:\do_an\lan\lan\obj\Debug\lan.bao_cao.resources
+E:\do_an\lan\lan\obj\Debug\lan.bill_dien.resources
+E:\do_an\lan\lan\obj\Debug\lan.bill_nuoc.resources
+E:\do_an\lan\lan\obj\Debug\lan.form_update_mk.resources
+E:\do_an\lan\lan\obj\Debug\lan.frmCanHo.resources
+E:\do_an\lan\lan\obj\Debug\lan.frmDanCu.resources
 E:\do_an\lan\lan\obj\Debug\lan.frmDangkythexe.resources
+E:\do_an\lan\lan\obj\Debug\lan.frmDangnhap.resources
+E:\do_an\lan\lan\obj\Debug\lan.frmNhanvien.resources
 E:\do_an\lan\lan\obj\Debug\lan.frmQuanlyxe.resources
+E:\do_an\lan\lan\obj\Debug\lan.hoa_don.resources
+E:\do_an\lan\lan\obj\Debug\lan.nhankhau_phieu.resources
+E:\do_an\lan\lan\obj\Debug\lan.Form_danh_muc.resources
+E:\do_an\lan\lan\obj\Debug\lan.Form1.resources
+E:\do_an\lan\lan\obj\Debug\lan.form_dangnhap.resources
+E:\do_an\lan\lan\obj\Debug\lan.Properties.Resources.resources
+E:\do_an\lan\lan\obj\Debug\lan.ql_canho.resources
+E:\do_an\lan\lan\obj\Debug\lan.ql_dancu.resources
+E:\do_an\lan\lan\obj\Debug\lan.ql_dv.resources
+E:\do_an\lan\lan\obj\Debug\lan.ql_nhanvien.resources
+E:\do_an\lan\lan\obj\Debug\lan.RibbonForm1.resources
+E:\do_an\lan\lan\obj\Debug\lan.RibbonForm2.resources
+E:\do_an\lan\lan\obj\Debug\lan.Sua_tt.resources
+E:\do_an\lan\lan\obj\Debug\lan.Tao_tk.resources
+E:\do_an\lan\lan\obj\Debug\lan.them.resources
+E:\do_an\lan\lan\obj\Debug\lan.thongke.resources
+E:\do_an\lan\lan\obj\Debug\lan.tracuu.resources
+E:\do_an\lan\lan\obj\Debug\lan.vang.resources
+E:\do_an\lan\lan\obj\Debug\lan.csproj.GenerateResource.Cache
+E:\do_an\lan\lan\obj\Debug\RdlCompile.cache
+E:\do_an\lan\lan\obj\Debug\RdlCompile.compiled
+E:\do_an\lan\lan\obj\Debug\lan.exe
+E:\do_an\lan\lan\obj\Debug\lan.pdb
